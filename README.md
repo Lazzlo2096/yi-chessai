@@ -5,7 +5,7 @@
 You need [nix](https://nixos.org/nix/download.html) to build this.
 
 ```sh
-git clone https://github.com/chessai/yi-chessai
+git clone https://github.com/chessai/yi-chessai && cd yi-chessai
 nix-build && nix-env -i $(readlink -f result)
 ```
 
